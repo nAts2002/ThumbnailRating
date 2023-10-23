@@ -1,0 +1,66 @@
+.thumbnail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.thumbnail-image {
+    width: 50vw;
+    height: 37.5vw;
+}
+.thumbnail-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 50vw;
+}
+.thumbnail-rating {
+    font-size: 16px !important;
+    color: white !important;
+    background-color: lightblue !important;
+    padding: 5px !important;
+}
+.thumbnail-delete {
+    font-size: 16px !important; 
+    color: white !important;
+    padding: 5px !important;
+    text-decoration: none !important;
+
+}
+.thumbnail-actions {
+    display: flex;
+    justify-content: flex-start;
+    width: 50vw;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 40vw;
+}
+
+button {
+    width: 20vw;
+    margin: 10px;
+}
+a.analyze {
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+a.delete {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
